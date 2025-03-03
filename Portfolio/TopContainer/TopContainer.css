@@ -1,0 +1,23 @@
+/* TopContainer.css */
+.topContainer {
+    background-color: rgba(0, 0, 0, 0.9); /* Black background with 90% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust spacing between elements */
+    height: 100vh; /* Full viewport height */
+    /* padding: 15px; */
+    position: relative; /* Ensure background styling is properly applied */
+    color: white; /* Set text color to white for contrast */
+}
+
+.image {
+    width: 360px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 20px; /* Adds space on the left */
+}
+
+.topContent {
+    flex-grow: 1; /* Ensures the content takes up remaining space */
+    padding-left: 20px; /* Adds some padding to space the content */
+}
